@@ -9,7 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net7.0\Beneficiary_data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net7.0\Input.docx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="NameCaseLib" Version="0.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Open-XML-SDK" Version="2.9.1" />
     </ItemGroup>
 
